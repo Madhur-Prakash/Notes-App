@@ -1,0 +1,12 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+    %}
+    <h1 class="text-center">Update the Note</h1>
+        <form method="POST">
+        <label for="exampleInputEmail1" class="form-label"></label>
+        <textarea class="form-control" name="note" id="note">{{ note.data }}</textarea>
+      <br />
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary">Update Note</button>
+      </div>
+    </form>
+    {% endblock %}

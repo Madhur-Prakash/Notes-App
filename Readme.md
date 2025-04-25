@@ -76,10 +76,12 @@ A lightweight and extensible **Flask-based note-taking web application** that in
 ```plaintext
 note-taking/
 ├── .gitignore  # gitignore file for GitHub
+├── Dockerfile
 ├── Readme.md
 ├── app.py  # main FastAPI app
 ├── instance
 │   └── notes.db
+├── requirements.txt
 └── website
     ├── __init__.py  # initializes package
     ├── auth.py
